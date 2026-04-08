@@ -46,7 +46,18 @@ const Hero = () => {
         width={1920}
         height={1024}
       />
-      <div className="relative z-10 container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12 pt-20">
+      <div className="absolute top-24 right-6 md:right-12 z-20">
+        <div className="w-20 h-20 md:w-28 md:h-28 rounded-full overflow-hidden border-2 border-muted/40">
+          <img
+            src={avatar}
+            alt="Moiz Ansari"
+            className="w-full h-full object-cover"
+            width={512}
+            height={512}
+          />
+        </div>
+      </div>
+      <div className="relative z-10 container mx-auto px-4 flex flex-col items-center lg:items-start gap-12 pt-20">
         <div className="flex-1 text-center lg:text-left">
           <p className="text-primary font-mono text-sm mb-4 animate-slide-up">
             Hello, I'm
@@ -91,17 +102,6 @@ const Hero = () => {
             >
               <Mail size={18} /> Contact
             </a>
-          </div>
-        </div>
-        <div className="flex-shrink-0">
-          <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-muted/40">
-            <img
-              src={avatar}
-              alt="Moiz Ansari"
-              className="w-full h-full object-cover"
-              width={512}
-              height={512}
-            />
           </div>
         </div>
       </div>
