@@ -104,17 +104,6 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="flex-shrink-0">
-          <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-muted/40">
-            <img
-              src={avatar}
-              alt="Moiz Ansari"
-              className="w-full h-full object-cover"
-              width={512}
-              height={512}
-            />
-          </div>
-        </div>
       </div>
       <a
         href="#about"
