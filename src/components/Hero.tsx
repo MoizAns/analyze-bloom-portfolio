@@ -93,8 +93,8 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="flex-shrink-0 animate-float">
-          <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-primary/30 shadow-2xl shadow-primary/20">
+        <div className="flex-shrink-0">
+          <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-muted/40">
             <img
               src={avatar}
               alt="Moiz Ansari"
