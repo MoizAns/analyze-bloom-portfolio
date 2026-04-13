@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { Github, FileDown, Mail, ArrowDown } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import avatar from "@/assets/avatar.png";
-import profile from "@assets/profile.png"
+import profile from "@/assets/profile.png";
 
 const roles = ["Data Analyst", "ML Enthusiast", "Python Developer"];
 
