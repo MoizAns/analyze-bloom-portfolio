@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Github, FileDown, Mail, ArrowDown } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import avatar from "@/assets/avatar.png";
+import profile from "@assets/profile.png"
 
 const roles = ["Data Analyst", "ML Enthusiast", "Python Developer"];
 
@@ -49,7 +50,7 @@ const Hero = () => {
       <div className="absolute top-24 right-6 md:right-12 z-20">
         <div className="w-20 h-20 md:w-28 md:h-28 rounded-full overflow-hidden border-2 border-muted/40">
           <img
-            src={avatar}
+            src={profile}
             alt="Moiz Ansari"
             className="w-full h-full object-cover"
             width={512}
