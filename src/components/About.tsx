@@ -8,12 +8,7 @@ const About = () => (
       </h2>
       <div className="glass-card p-8 md:p-10">
         <p className="text-muted-foreground leading-relaxed text-base md:text-lg mb-8">
-          Final-year IT Engineering student with hands-on experience in Data
-          Science, Machine Learning, and dashboard development. Strong in data
-          cleaning, visualization, and predictive modeling with a track record of
-          building real-world projects using Streamlit and ML algorithms.
-          Passionate about solving business problems using data and turning
-          complex datasets into clear, actionable insights.
+          Recent IT Engineering graduate with hands-on experience in Data Science, Machine Learning, and dashboard development. Skilled in data cleaning, visualization, and predictive modeling, with practical experience building real-world projects using Streamlit and ML algorithms. Passionate about leveraging data to solve business problems and transform complex datasets into actionable insights that support decision-making.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
           {[
