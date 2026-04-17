@@ -103,8 +103,8 @@ const Projects = () => {
     href={project.live}
     target="_blank"
     rel="noopener noreferrer"
-    className="group flex items-center gap-2 px-4 py-2 rounded-xl 
-               bg-gradient-to-r from-green-500 to-emerald-600 
+    className="group flex items-center gap-2 px-4 py-0 rounded-xl 
+               bg-gradient-to-r from-blue-300 to-blue-500 
                text-white font-medium shadow-md 
                hover:shadow-lg hover:scale-105 
                transition-all duration-200 ease-in-out"
