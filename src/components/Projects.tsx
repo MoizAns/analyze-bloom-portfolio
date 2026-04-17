@@ -17,7 +17,7 @@ const projects = [
     description:
       "Built ML models using Logistic Regression, Random Forest, and Neural Networks. Identified fraudulent transactions using pattern recognition focused on real-world financial anomaly detection.",
     tech: ["Python", "ML", "Scikit-learn"],
-    github: "#",
+    github: "https://github.com/MoizAns/Credit-Card-Fraud-Detection-Using-ML",
     category: "ML",
     featured: false,
   },
