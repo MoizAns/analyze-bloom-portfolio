@@ -3,15 +3,15 @@ import { ExternalLink, Star } from "lucide-react";
 
 const projects = [
   {
-   title: "Sales Data Analysis & Visualization Dashboard",
-   description:
-    "Built an interactive Streamlit dashboard for sales analysis with filters, KPIs, and visualizations. Developed a RandomForestRegressor model to predict sales using key features like Quantity, Discount, and Profit.",
-   tech: ["Python", "Pandas", "Matplotlib", "Streamlit", "ML"],
-   github: "https://github.com/MoizAns/Sales-Data-Analysis---Visualization-Dashboard--Streamlit-App",
-   live: "https://sales-data-analysis-visualization-dashboard-kquwkzbfgifwbjuga9.streamlit.app/",
-   category: "Data Analysis",
-   featured: true,
- },
+    title: "Sales Data Analysis & Visualization Dashboard",
+    description:
+      "Built an interactive Streamlit dashboard for sales analysis with filters, KPIs, and visualizations. Developed a RandomForestRegressor model to predict sales using key features like Quantity, Discount, and Profit.",
+    tech: ["Python", "Pandas", "Matplotlib", "Streamlit", "ML"],
+    github: "https://github.com/MoizAns/Sales-Data-Analysis---Visualization-Dashboard--Streamlit-App",
+    live: "https://sales-data-analysis-visualization-dashboard-kquwkzbfgifwbjuga9.streamlit.app/",
+    category: "Data Analysis",
+    featured: true,
+  },
   {
     title: "Credit Card Fraud Detection",
     description:
@@ -52,11 +52,10 @@ const Projects = () => {
             <button
               key={f}
               onClick={() => setActive(f)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                active === f
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${active === f
                   ? "bg-primary text-primary-foreground"
                   : "bg-muted text-muted-foreground hover:text-foreground"
-              }`}
+                }`}
             >
               {f}
             </button>
@@ -66,9 +65,8 @@ const Projects = () => {
           {filtered.map((project, i) => (
             <div
               key={i}
-              className={`glass-card p-6 hover-lift flex flex-col ${
-                project.featured ? "md:col-span-2 lg:col-span-1 ring-1 ring-primary/20" : ""
-              }`}
+              className={`glass-card p-6 hover-lift flex flex-col ${project.featured ? "md:col-span-2 lg:col-span-1 ring-1 ring-primary/20" : ""
+                }`}
             >
               {project.featured && (
                 <div className="flex items-center gap-1 text-primary text-xs font-semibold mb-3">
@@ -100,16 +98,24 @@ const Projects = () => {
                 View on GitHub <ExternalLink size={14} />
               </a>
 
-               {project.live && (
-    <a
-      href={project.live}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-500"
-    >
-      🌐 Go Live
-    </a>
-  )}
+              {project.live && (
+  <a
+    href={project.live}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group flex items-center gap-2 px-4 py-2 rounded-xl 
+               bg-gradient-to-r from-green-500 to-emerald-600 
+               text-white font-medium shadow-md 
+               hover:shadow-lg hover:scale-105 
+               transition-all duration-200 ease-in-out"
+  >
+    <ExternalLink
+      size={18}
+      className="transition-transform duration-200 group-hover:translate-x-1"
+    />
+    <span>Go Live</span>
+  </a>
+)}
             </div>
           ))}
         </div>
