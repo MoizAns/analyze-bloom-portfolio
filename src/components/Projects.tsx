@@ -3,14 +3,15 @@ import { ExternalLink, Star } from "lucide-react";
 
 const projects = [
   {
-    title: "Sales Data Analysis & Visualization Dashboard",
-    description:
-      "Built an interactive Streamlit dashboard for sales analysis with filters, KPIs, and visualizations. Developed a RandomForestRegressor model to predict sales using key features like Quantity, Discount, and Profit.",
-    tech: ["Python", "Pandas", "Matplotlib", "Streamlit", "ML"],
-    github: "https://github.com/MoizAns/Sales-Data-Analysis---Visualization-Dashboard--Streamlit-App",
-    category: "Data Analysis",
-    featured: true,
-  },
+   title: "Sales Data Analysis & Visualization Dashboard",
+   description:
+    "Built an interactive Streamlit dashboard for sales analysis with filters, KPIs, and visualizations. Developed a RandomForestRegressor model to predict sales using key features like Quantity, Discount, and Profit.",
+   tech: ["Python", "Pandas", "Matplotlib", "Streamlit", "ML"],
+   github: "https://github.com/MoizAns/Sales-Data-Analysis---Visualization-Dashboard--Streamlit-App",
+   live: "https://sales-data-analysis-visualization-dashboard-kquwkzbfgifwbjuga9.streamlit.app/",
+   category: "Data Analysis",
+   featured: true,
+ },
   {
     title: "Credit Card Fraud Detection",
     description:
