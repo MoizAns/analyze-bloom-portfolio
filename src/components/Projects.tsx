@@ -99,6 +99,17 @@ const Projects = () => {
               >
                 View on GitHub <ExternalLink size={14} />
               </a>
+
+               {project.live && (
+    <a
+      href={project.live}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-500"
+    >
+      🌐 Go Live
+    </a>
+  )}
             </div>
           ))}
         </div>
