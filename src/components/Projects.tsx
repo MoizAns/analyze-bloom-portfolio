@@ -3,6 +3,16 @@ import { ExternalLink, Star } from "lucide-react";
 
 const projects = [
   {
+    title: "AI Career Twin (Your Digital Clone for Decisions)",
+    description:
+      "Your AI-powered digital clone for analyzing skills, predicting career paths, and guiding decisions in real-time",
+    tech: ["FastAPI", "NLP", "Machine Learning", "ChatBot", "Resume Parsing", ],
+    github: "https://github.com/MoizAns/AI-Career-Twin-Your-Digital-Clone-for-Decisions-",
+    live: "https://ai-career-twin-your-digital-clone-f.vercel.app/dashboard",
+    category: "Web Development + Machine Learning",
+    featured: true,
+  },
+  {
     title: "Sales Data Analysis & Visualization Dashboard",
     description:
       "Built an interactive Streamlit dashboard for sales analysis with filters, KPIs, and visualizations. Developed a RandomForestRegressor model to predict sales using key features like Quantity, Discount, and Profit.",
