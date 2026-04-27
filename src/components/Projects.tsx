@@ -42,7 +42,7 @@ const projects = [
   },
 ];
 
-const filters = ["All", "Data Analysis", "ML", "Computer Vision"];
+const filters = ["All", "Web Development + Machine Learning", "Data Analysis", "ML", "Computer Vision"];
 
 const Projects = () => {
   const [active, setActive] = useState("All");
