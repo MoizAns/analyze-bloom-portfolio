@@ -90,7 +90,7 @@ const Hero = () => {
               <Github size={18} /> GitHub
             </a>
             <a
-              href="/MOIZ_ANSARI_7887779992.pdf"
+              href="https://drive.google.com/file/d/1BBztbEf0WUYwvKYmE5dpy90ePf8jsYdM/view?usp=sharing"
               download
               className="px-6 py-3 border border-hero-muted/30 text-hero-foreground rounded-lg font-medium hover:border-primary hover:text-primary transition-colors flex items-center gap-2"
             >
