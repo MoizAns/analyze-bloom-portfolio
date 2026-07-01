@@ -114,8 +114,8 @@ const Projects = () => {
     target="_blank"
     rel="noopener noreferrer"
     className="group flex items-center gap-2 px-4 py-0 rounded-xl 
-               bg-gradient-to-r from-blue-300 to-blue-500 
-               text-white font-medium shadow-md 
+               bg-gradient-to-r from-blue-200 to-white-200 
+               text-green font-small shadow-md 
                hover:shadow-lg hover:scale-105 
                transition-all duration-200 ease-in-out"
   >
