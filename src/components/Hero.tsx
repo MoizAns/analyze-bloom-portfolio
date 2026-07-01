@@ -34,11 +34,16 @@ const Hero = () => {
 
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
-      style={{
-        background: `linear-gradient(to bottom, hsl(var(--hero-bg)), hsl(var(--hero-bg) / 0.9))`,
-      }}
-    >
+  className="relative min-h-screen flex items-center justify-center overflow-hidden"
+  style={{
+    backgroundColor: "#0f172a",
+    backgroundImage: `
+      linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px)
+    `,
+    backgroundSize: "40px 40px",
+  }}
+>
       <img
         src={heroBg}
         alt=""
