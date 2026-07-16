@@ -206,7 +206,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://drive.google.com/file/d/1mj84cgZd_D3f1LWrc6ECLMwcyUileUqX/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1kpO8iFgFIY_DU8NFxy4aJqLL0Q2lh0N6/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="

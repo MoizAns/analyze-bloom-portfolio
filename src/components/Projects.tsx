@@ -3,6 +3,16 @@ import { ExternalLink, Star } from "lucide-react";
 
 const projects = [
   {
+    title: "AI-First CRM with Agentic AI",
+    description:
+      "Built a GenAI-powered CRM platform that enables pharmaceutical representatives to log HCP interactions using natural language. Leverages LangGraph agents and LLMs to automate note summarization, sentiment analysis, follow-up recommendations, and CRM record creation.",
+    tech: ["Python", "FastAPI", "LangGraph", "LangChain", "LLMs","AI Agents", "SQLite", "React" ],
+    github: "https://github.com/MoizAns/AI-First-CRM-HCP-Module-Log-Interaction-Screen",
+    live: "https://ai-first-crm-hcp-module-log-interac.vercel.app/",
+    category: "GenAI + Web Development",
+    featured: true,
+  },
+  {
     title: "AI Career Twin (Your Digital Clone for Decisions)",
     description:
       "Your AI-powered digital clone for analyzing skills, predicting career paths, and guiding decisions in real-time",
@@ -22,24 +32,7 @@ const projects = [
     category: "Data Analysis",
     featured: true,
   },
-  {
-    title: "Credit Card Fraud Detection",
-    description:
-      "Built ML models using Logistic Regression, Random Forest, and Neural Networks. Identified fraudulent transactions using pattern recognition focused on real-world financial anomaly detection.",
-    tech: ["Python", "ML", "Scikit-learn"],
-    github: "https://github.com/MoizAns/Credit-Card-Fraud-Detection-Using-ML",
-    category: "ML",
-    featured: false,
-  },
-  {
-    title: "Age & Gender Detection System",
-    description:
-      "Developed using CNN and OpenCV with a GUI for real-time face-based prediction. Applied Computer Vision techniques for accurate age and gender classification.",
-    tech: ["TensorFlow", "OpenCV", "Python", "ML"],
-    github: "#",
-    category: "Computer Vision",
-    featured: false,
-  },
+  
 ];
 
 const filters = ["All", "Web Development + Machine Learning", "Data Analysis", "ML", "Computer Vision"];
@@ -115,7 +108,7 @@ const Projects = () => {
     rel="noopener noreferrer"
     className="group flex items-center gap-2 px-4 py-0 rounded-xl 
                bg-gradient-to-r from-blue-200 to-white-200 
-               text-green font-small shadow-md 
+               text-red font-small shadow-md 
                hover:shadow-lg hover:scale-105 
                transition-all duration-200 ease-in-out"
   >
